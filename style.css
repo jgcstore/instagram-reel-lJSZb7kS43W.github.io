@@ -1,0 +1,435 @@
+@font-face {
+    font-family: Billabong;
+    src: url(billabong.ttf);
+}
+*{
+    font-family: sans-serif;
+}
+
+.ig{
+    font-family: Billabong;
+    font-size: 1.5cm;
+    color: #282b2c;
+    margin-left: 2cm;
+}
+
+
+.container{
+    margin-left: 18cm;
+    margin-right: 8cm;
+    margin-top: 2cm;
+    height: 11cm;
+    border-radius: 3px;
+    border: 1px solid rgb(190, 190, 190);
+
+}
+
+
+
+.user{
+
+    height: 0.8cm;
+    width: 6.5cm;
+    margin-left: 0.9cm;
+    font-size: 0.8em;
+    border-radius: 3px;
+    border: 1px solid gray;
+    outline: none;
+    color: rgb(34, 34, 34);
+}
+
+
+
+
+
+.pwd{
+
+    height: 0.8cm;
+    width: 6.5cm;
+    margin-left: 0.9cm;
+    font-size: 0.8em;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    outline: none;
+    color: rgb(34, 34, 34);
+
+}                                                               
+
+
+.submit{
+
+    height: 01cm;
+    width: 6.6cm;
+    margin-left: 0.9cm;
+    font-size: 0.8em;
+    margin-top: 25px;
+    border-radius: 9px;
+    border: 1px solid rgb(123, 202, 255);
+    background-color: rgb(123, 202, 255);
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.sis{
+
+    height: 1px;
+    width: 2.3cm;
+    margin-top: -2.5cm;
+    margin-left: 19cm;
+    position: absolute;
+}
+
+.sis2{
+
+    height: 1px;
+    width: 2.3cm;
+    margin-top: -2.5cm;
+    margin-left: 23cm;
+    position: absolute;
+}
+
+
+.o{
+    position: absolute;
+    margin-top: -2.9cm;
+    margin-left: 22cm;
+    font-size: 1.3em;
+    color: #282b2c;
+}
+
+
+
+
+.olvidado{
+    position: absolute;
+    margin-top: -1.5cm;
+    margin-left: 20cm;
+    font-size: 0.8em;
+    color: #5e5f5f;
+}
+
+.olvidado:hover{
+    color: #282b2c;
+}
+
+
+
+
+
+
+.contenedorfooter{
+    margin-left: 18cm;
+    margin-right: 8cm;
+    margin-top: 0.5cm;
+    height: 2cm;
+    border-radius: 3px;
+    border: 1px solid rgb(190, 190, 190);
+
+}
+
+
+
+.register{
+    font-size: 0.99em;
+    text-align: center;
+    margin-top: 30px;
+    color: #313535;
+}
+
+.registerlink{
+    text-decoration: none;
+    color: rgb(31, 146, 223);
+}
+
+
+
+.movil1{
+    border: 10px solid black;
+    height: 13cm;
+    margin-top: -11.4cm;
+    margin-left: 6cm;
+    width: 6cm;
+    position: absolute;
+    border-radius: 1cm;
+    border-bottom: 20px solid black;
+}
+
+.img2{
+    height: 13cm;
+    margin-top: 0cm;
+    margin-left: 0cm;
+    width: 6cm;
+    position: absolute;
+    border-radius: 1cm;
+}
+
+
+
+
+
+
+
+.movil2{
+    border: 10px solid black;
+    height: 13cm;
+    margin-top: -11cm;
+    margin-left: 8.7cm;
+    width: 6cm;
+    position: absolute;
+    border-radius: 1cm;
+    border-bottom: 20px solid black;
+
+}
+
+
+
+.img1{
+    height: 13cm;
+    margin-top: 0cm;
+    margin-left: 0cm;
+    width: 6cm;
+    position: relative;
+    border-radius: 1cm;
+    animation: Desvanecer 3s ease;
+
+}
+
+
+
+
+
+.img3{
+    height: 13cm;
+    margin-top: 0cm;
+    margin-left: -6.11cm;
+    width: 6cm;
+    position: absolute;
+    border-radius: 1cm;
+    animation: Desvanecer 3s ease;
+}
+
+
+
+
+
+.img4{
+    height: 13cm;
+    margin-top: 0cm;
+    margin-left: -6.11cm;
+    width: 6.3cm;
+    position: absolute;
+    border-radius: 1cm;
+    animation: Desvanecer 3s ease;
+}
+
+
+
+.cam1{
+    background-color: #000;
+    border-radius: 10px;
+    height: 0.6cm;
+    width: 3.5cm;
+
+    margin-left: 10.2cm;
+    margin-top: -10.8cm;
+    position: absolute;
+}
+
+
+
+
+.cam2{
+    background-color: #000000;
+    border-radius: 10px;
+    height: 0.7cm;
+    width: 3.5cm;
+
+    margin-left: 7.7cm;
+    margin-top: -11.4cm;
+    position: absolute;
+}
+
+
+
+
+@keyframes Desvanecer {
+    0%{
+       .img4{
+        opacity: 100;
+        }
+
+        .img3{
+            opacity: 100;
+            }
+
+            .img1{
+                opacity: 100;
+                }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+    .movil1, .movil2, .cam1, .cam2, .img1, .img2, .img3, .img3 {
+        display: none !important;
+     }
+
+
+
+    .ig{
+        font-family: Billabong;
+        font-size: 1.5cm;
+        color: #282b2c;
+        margin-left: 1.5cm;
+    }
+
+
+
+    .container{
+        margin-left: 0.5cm;
+        margin-top: 1cm;
+        height: 11cm;
+        width: 7.5cm;
+        border-radius: 3px;
+        border: 1px solid rgb(190, 190, 190);
+    
+    }
+    
+    
+    
+    .user{
+    
+        height: 0.8cm;
+        width: 6cm;
+        margin-left: 0.65cm;
+        font-size: 0.8em;
+        border-radius: 3px;
+        border: 1px solid gray;
+        outline: none;
+        color: rgb(34, 34, 34);
+    }
+    
+    
+    
+    
+    
+    .pwd{
+    
+        height: 0.8cm;
+        width: 6cm;
+        margin-left: 0.65cm;
+        font-size: 0.8em;
+        margin-top: 5px;
+        border-radius: 3px;
+        border: 1px solid gray;
+        outline: none;
+        color: rgb(34, 34, 34);
+    
+    }                                                               
+    
+    
+    .submit{
+    
+        height: 01cm;
+        width: 6.2cm;
+        margin-left: 0.65cm;
+        font-size: 0.8em;
+        margin-top: 25px;
+        border-radius: 9px;
+        border: 1px solid rgb(123, 202, 255);
+        background-color: rgb(123, 202, 255);
+        color: white;
+        text-decoration: none;
+    
+    }
+    
+    
+    .sis{
+    
+        height: 1px;
+        width: 2.3cm;
+        margin-top: -2.5cm;
+        margin-left: 1cm;
+        position: absolute;
+    }
+    
+    .sis2{
+    
+        height: 1px;
+        width: 2.3cm;
+        margin-top: -2.5cm;
+        margin-left: 5cm;
+        position: absolute;
+    }
+    
+    
+    .o{
+        position: absolute;
+        margin-top: -2.9cm;
+        margin-left: 4cm;
+        font-size: 1.3em;
+        color: #282b2c;
+    }
+    
+    
+    
+    
+    .olvidado{
+        position: absolute;
+        margin-top: -1.5cm;
+        margin-left: 1.8cm;
+        font-size: 0.8em;
+        color: #5e5f5f;
+    }
+    
+    .olvidado:hover{
+        color: #282b2c;
+    }
+    
+    
+    
+    
+    
+    
+    .contenedorfooter{
+        margin-left: 0.5cm;
+        margin-top: 0.5cm;
+        height: 2cm;
+        width: 7.5cm;
+        border-radius: 3px;
+        border: 1px solid rgb(190, 190, 190);
+    
+    }
+    
+    
+    
+    .register{
+        font-size: 0.99em;
+        text-align: center;
+        margin-top: 30px;
+        color: #313535;
+    }
+    
+    .registerlink{
+        text-decoration: none;
+        color: rgb(31, 146, 223);
+    }
+
+  }
